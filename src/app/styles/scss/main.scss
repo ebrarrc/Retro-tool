@@ -1,0 +1,40 @@
+.ant-steps {
+    margin: 20px 0 20px;
+}
+
+.ant-steps .ant-steps-item-process .ant-steps-item-icon {
+    background-color: #543aaa;
+    border-color: #543aaa;
+    color: white;
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #f6d7e7;
+    border-color: #f6d7e7;
+    color: #543aaa;
+
+    & .ant-steps-finish-icon {
+        color: #543aaa;
+    }
+}
+
+.ant-card {
+
+    .ant-card-head {
+        padding: 0px 4px;
+
+        .ant-col {
+            padding: 0px;
+        }
+    }
+
+    .ant-card-body {
+        padding: 0px 4px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow: hidden;
+        
+    }
+}
+
